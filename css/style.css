@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+}
+#gallery {
+  width: 100%;
+  height: 80vh;
+  overflow-y: scroll;
+  text-align: center;
+}
+img {
+  width: 30%;
+  margin: 0.3rem;
+  object-fit: cover;
+  overflow: hidden;
+  height: calc(30%);
+  filter: opacity(0.5);
+}
+img:hover {
+  filter: none;
+}
