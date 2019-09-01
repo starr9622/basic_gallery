@@ -1,5 +1,7 @@
+require("../css/style.css");
 import ajax from "../js/ajax.js";
-ajax("../json/image.json", function(data) {
+
+ajax("./json/image.json", function(data) {
   data.forEach(element => {
     let img = document.createElement("img");
     img.setAttribute("src", element);
